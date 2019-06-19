@@ -33,10 +33,13 @@ a {
   padding: 10px 0;
 }
 
+.navigation .active {
+  font-weight: bold;
+}
+
 .navigation a {
   padding: 10px 20px;
   color: #bdbdbd;
-  font-weight: bold;
 }
 
 .header {
@@ -90,8 +93,12 @@ a {
   margin: 40px 0;
 }
 
+.socials a {
+  margin: 20px;
+}
+
 .socials img {
-  height: 50px;
+  height: 30px;
 }
 
 .footer {
@@ -106,7 +113,7 @@ a {
 .footer-credits {
   background-color: #274a64;
   color: #eeeeee;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .footer-credits-source-code {
@@ -115,4 +122,8 @@ a {
 
 .footer-credits-source-code a {
   color: #507189;
+}
+
+iframe {
+  border-style: none;
 }
