@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  color: #333333;
+  border-top: 10px solid #274a64;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Caveat Brush', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  width: 800px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navigation {
+  padding: 10px 0;
+}
+
+.navigation a {
+  padding: 10px 20px;
+  color: #bdbdbd;
+  font-weight: bold;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-name {
+  color: #274a64; /* dark blue */
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.header-activity {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.content {
+  display: flex;
+}
+
+.content section {
+  margin: 0 20px;
+}
+
+.poster {
+  display: flex;
+  justify-content: center;
+}
+
+.poster img {
+  width: 400px;
+  height: 592px;
+}
+
+.details-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details-description-title {
+  color: #9b51e0;
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+.socials {
+  margin: 40px 0;
+}
+
+.socials img {
+  height: 50px;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+}
+
+.footer-image {
+  margin: -5px;
+}
+
+.footer-credits {
+  background-color: #274a64;
+  color: #eeeeee;
+  padding: 20px 0;
+}
+
+.footer-credits-source-code {
+  margin: 0;
+}
+
+.footer-credits-source-code a {
+  color: #507189;
+}
